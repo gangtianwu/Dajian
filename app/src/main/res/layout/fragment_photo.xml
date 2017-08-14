@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nodata_background"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fragment_photo_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+    <ProgressBar
+        android:layout_marginTop="200dp"
+        android:id="@+id/fg_baseinfo_photo_pb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:visibility="invisible"
+        android:id="@+id/fg_photo_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/photo_fg_iv"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/nodata_blank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/fg_photo_tv"
+            android:textColor="#808080"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/photo_fg_iv"
+            android:layout_marginTop="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="您还没有待办的信息"
+            android:textSize="18sp"
+            />
+    </RelativeLayout>
+</LinearLayout>

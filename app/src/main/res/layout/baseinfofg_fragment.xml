@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nodata_background"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.4dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/divide_line" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/baseinfofragment_rv"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:paddingLeft="15dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.4dp"
+        android:background="@color/divide_line" />
+
+    <ProgressBar
+        android:id="@+id/fg_baseinfo_pb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp" />
+    <RelativeLayout
+        android:visibility="invisible"
+        android:id="@+id/fg_baseinfo_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/baseinfo_fg_iv"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/nodata_blank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/baseinfo_tv"
+            android:textColor="#808080"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/baseinfo_fg_iv"
+            android:layout_marginTop="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="您还没有待办的信息"
+            android:textSize="18sp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cn.bingoogolapple.qrcode.zxing.ZXingView
+
+        android:id="@+id/zxingview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:qrcv_animTime="300"
+        app:qrcv_barcodeRectHeight="140dp"
+        app:qrcv_borderColor="@android:color/white"
+        app:qrcv_borderSize="1dp"
+        app:qrcv_cornerColor="@color/white"
+        app:qrcv_cornerLength="20dp"
+        app:qrcv_cornerSize="4dp"
+        app:qrcv_customScanLineDrawable="@drawable/scan_icon_scanline"
+        app:qrcv_isBarcode="false"
+        app:qrcv_isCenterVertical="false"
+        app:qrcv_isOnlyDecodeScanBoxArea="true"
+        app:qrcv_isScanLineReverse="true"
+        app:qrcv_isShowDefaultGridScanLineDrawable="false"
+        app:qrcv_isShowDefaultScanLineDrawable="true"
+        app:qrcv_isShowTipBackground="true"
+        app:qrcv_isShowTipTextAsSingleLine="false"
+        app:qrcv_isTipTextBelowRect="false"
+        app:qrcv_maskColor="#66000000"
+        app:qrcv_rectWidth="279dp"
+        app:qrcv_scanLineColor="@color/colorPrimaryDark"
+        app:qrcv_scanLineMargin="0dp"
+        app:qrcv_scanLineSize="0.5dp"
+        app:qrcv_tipTextColor="@android:color/white"
+        app:qrcv_topOffset="143dp" />
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--<View-->
+            <!--android:id="@+id/top"-->
+            <!--android:background="#66000000"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="143dp"/>-->
+        <!--<View-->
+            <!--android:layout_below="@+id/top"-->
+            <!--android:background="#66000000"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="143dp"/>-->
+        <!--<View-->
+            <!--android:layout_width="279dp"-->
+            <!--android:layout_height="279dp"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="143dp"-->
+            <!--android:background="#FF000000" />-->
+
+    <!--</RelativeLayout>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:id="@+id/activity_scan_ib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@mipmap/back" />
+
+        <ImageButton
+            android:id="@+id/activity_scan_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@mipmap/picture" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="94dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/erweima" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="请将二维码放入框内"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/activity_scan_light_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="477dp"
+        android:background="@mipmap/light_off" />
+    <!--<ImageButton-->
+        <!--android:id="@+id/activity_scan_light_on"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_marginTop="477dp"-->
+        <!--android:background="@drawable/activity_scan_light" />-->
+
+    <!--<Button-->
+    <!---->
+    <!--android:layout_marginBottom="20dp"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:background="@color/colorPrimary"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_marginRight="30dp"-->
+    <!--android:id="@+id/activity_scan_photo_album"-->
+    <!--android:layout_width="120dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:text="从相册获取"/>-->
+
+
+</FrameLayout>

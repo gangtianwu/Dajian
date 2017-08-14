@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/query_background"
+    >
+
+    <TextView
+        android:id="@+id/query_request"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:text="查询申请信息"
+        android:textColor="#333333"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/query_view1"
+        android:layout_below="@+id/query_request"
+        android:background="#E0E0E0"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <RelativeLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/query_rl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/query_view1"
+        android:background="@drawable/query"
+        android:layout_width="313dp"
+        android:layout_height="44dp" >
+        <ImageView
+            android:id="@+id/query_iv"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="14dp"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/reqno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:background="@null"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/query_iv"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:textColorHint="#808080"
+            android:id="@+id/query_et"
+            android:hint="请输入申请编号"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+       </RelativeLayout>
+    <View
+        android:layout_marginTop="25dp"
+        android:id="@+id/query_view2"
+        android:layout_below="@+id/query_rl"
+        android:background="#E0E0E0"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <LinearLayout
+        android:layout_below="@+id/query_view2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:clickable="true"
+            android:id="@+id/query_tv_cancel"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:text="取消"
+            android:textSize="17sp"
+            android:textColor="#808080"
+            />
+        <View
+            android:background="#E0E0E0"
+            android:layout_width="0.5dp"
+            android:layout_height="44dp"/>
+        <TextView
+            android:gravity="center"
+            android:clickable="true"
+            android:id="@+id/query_tv_query"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:text="查询"
+            android:textSize="17sp"
+            android:textColor="#008AFF"
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/fragment_baseinfo_tv_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="@string/carrier_contact"
+            android:textColor="@color/mine_info_todo_text_process"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/fragment_baseinfo_item_tv"
+            android:maxEms="14"
+            android:maxLines="2"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:paddingRight="15dp"
+            android:text="同意"
+            android:textColor="@color/mine_info_radiogroup_unchecked"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <!--</android.support.v7.widget.CardView>-->
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="120.0dip"
+        android:layout_below="@+id/activity_login_tv_name"
+        android:layout_marginBottom="20.0dip"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginTop="40dip"
+        android:background="@drawable/shape_round_sent_pop">
+
+        <RelativeLayout
+            android:id="@+id/user_re"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip">
+            <EditText
+                android:textColor="@color/bigblack"
+                android:textColorHint="@color/gray"
+                android:id="@+id/login_user_account"
+                android:layout_width="200.0dip"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="25.0dip"
+                android:layout_toRightOf="@+id/user_image_login"
+                android:background="@null"
+                android:ems="10"
+                android:gravity="start"
+                android:hint="@string/et_login_activity_username"
+                android:paddingBottom="3.0dip"
+                android:paddingTop="3.0dip"
+                android:textSize="16.0sp" />
+
+            <TextView
+                android:textColor="@color/bigblack"
+                android:id="@+id/user_image_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/login_user_account"
+                android:paddingBottom="4.0dip"
+                android:paddingLeft="12.0dip"
+                android:text="@string/tv_login_activity_username"
+                android:textSize="16.0sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_above="@+id/password_re"
+            android:layout_alignParentLeft="true"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:id="@+id/password_re"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layout_below="@+id/user_re">
+
+            <EditText
+                android:id="@+id/login_user_passwd"
+                android:layout_width="200.0dip"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="25.0dip"
+                android:layout_toRightOf="@+id/user_image_passwd"
+                android:background="@null"
+                android:ems="10"
+                android:gravity="center|left"
+                android:hint="@string/et_login_activity_password"
+                android:inputType="textPassword"
+                android:paddingBottom="3.0dip"
+                android:paddingTop="3.0dip"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/bigblack"
+                android:textSize="16.0sp"
+                />
+
+            <TextView
+                android:textColor="@color/bigblack"
+                android:id="@+id/user_image_passwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/login_user_passwd"
+                android:paddingBottom="4.0dip"
+                android:paddingLeft="12.0dip"
+                android:text="@string/tv_login_activity_password"
+                android:textSize="16.0sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:background="@color/detail_title"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/car_detail_mainactivity_iv"
+            android:src="@mipmap/back"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:textColor="@color/mine_info_todo_text_process"
+            android:paddingLeft="10dp"
+            android:gravity="center"
+            android:id="@+id/tv_item"
+            android:textSize="18sp"
+            android:text="@string/details"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <android.support.design.widget.TabLayout
+        android:background="@color/cardview_light_background"
+        android:id="@+id/car_detail_tablayout"
+        app:tabIndicatorColor="#008AFF"
+        app:tabIndicatorHeight="2dp"
+        app:tabSelectedTextColor="#008AFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar">
+
+    </android.support.design.widget.TabLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/car_detail_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_above="@+id/rg"
+        android:layout_below="@+id/tablayout"
+        android:layout_weight="1">
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

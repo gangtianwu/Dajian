@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="radio_text_check">#ff0066b4</color>
+    <color name="theme_color">#ff00a0e4</color>
+    <color name="white">@android:color/white</color>
+    <color name="grenn">#0e932e</color>
+    <color name="gray">#E8F7F7F8</color>
+    <color name="colorTrans">#30000000</color>
+    <color name="bigblack">#000000</color>
+    <color name="title_background">#A9A9A9</color>
+    <color name="mine_info_radiogroup_unchecked">#808080</color>
+    <color name="mine_info_radiogroup_checked">#008AFF</color>
+    <color name="divide_line">#C8C7CC</color>
+    <color name="mine_info_todo_text_process">#333333</color>
+    <color name="mine_info_todo_text_process_value">#008AFF</color>
+    <color name="nodata_background">#F2F2F2</color>
+    <color name="detail_title">#F0F7F7F7</color>
+</resources>

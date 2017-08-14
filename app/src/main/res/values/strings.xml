@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_hainan">海南大件</string>
+    <string name="app_name">河北大件</string>
+    <string name="action_settings">设置</string>
+    <string name="action_check_version">检查更新</string>
+    <string name="action_login">登录</string>
+    <string name="et_splash_reqno">请输入申请编号</string>
+    <string name="bt_splash_query">查询许可信息</string>
+    <string name="tv_splash_version">版本信息</string>
+    <string name="tv_splash_login">点击登录</string>
+    <string name="tv_login_activity">大件审批</string>
+    <string name="et_login_activity_username">请输入账号</string>
+    <string name="tv_login_activity_username">账  号:</string>
+    <string name="et_login_activity_password">请输入密码</string>
+    <string name="tv_login_activity_password">密  码:</string>
+    <string name="button_login_activity">登录</string>
+    <string name="button_tv_login_activity">交通运输部规划研究院</string>
+    <string name="tx_scan">二维码扫描</string>
+    <string name="status">办理进度:&#160;&#160;</string>
+    <string name="applicationdata">申请时间:&#160;&#160;</string>
+    <string name="start_end_date">预约起止日:&#160;&#160;</string>
+    <string name="current_task">当前任务:&#160;&#160;</string>
+    <string name="carrier">承运单位:&#160;&#160;</string>
+    <string name="apply_info">申请信息:&#160;&#160;</string>
+    <string name="process_state">流程状态:&#160;&#160;</string>
+    <string name="if_start_province">是否起运省:&#160;&#160;</string>
+    <string name="start_province">起运地:&#160;&#160;</string>
+    <string name="end_province">目的地:&#160;&#160;</string>
+    <string name="details">办理进度</string>
+    <string name="schedule_opt_result">审批结果:&#160;&#160;</string>
+    <string name="schedule_opt_time">处理时间:&#160;&#160;</string>
+    <string name="schedule_opt_name">审批环节:&#160;&#160;</string>
+    <string name="schedule_opt_by">审批人:&#160;&#160;</string>
+    <string name="schedule_opt_desc">备注:&#160;&#160;</string>
+    <!--承运单位-->
+    <string name="carrier_user_id">用户名:&#160;&#160;</string>
+    <string name="carrier_contact">联系人姓名</string>
+    <string name="carrier_master_mail">邮件:&#160;&#160;</string>
+    <string name="carrier_mobile">手机:&#160;&#160;</string>
+    <!--企业基本信息-->
+    <string name="carrier_name">企业名称:&#160;&#160;</string>
+    <string name="carrier_address">单位地址:&#160;&#160;</string>
+    <string name="carrier_reg_address">注册省市:&#160;&#160;</string>
+    <string name="carrier_type">单位类型:&#160;&#160;</string>
+    <string name="carrier_master">法人姓名:&#160;&#160;</string>
+    <string name="carrier_master_id">身份证号:&#160;&#160;</string>
+    <string name="carrier_master_tel">企业电话:&#160;&#160;</string>
+    <string name="carrier_fax">企业传真:&#160;&#160;</string>
+    <!--企业资质信息-->
+    <string name="carrier_reg_no">营业执照(社会信用代码):&#160;&#160;</string>
+    <string name="carrier_org_cretno">经营许可证号:&#160;&#160;</string>
+    <string name="carrier_start_time">有效期起:&#160;&#160;</string>
+    <string name="carrier_end_time">有效期止:&#160;&#160;</string>
+
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <TextView
+        android:drawableLeft="@mipmap/account"
+        android:drawablePadding="13dp"
+        android:id="@+id/tv_item1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="退出登录"
+        android:textSize="17sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divide_line" />
+
+    <TextView
+        android:id="@+id/tv_item2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:drawableLeft="@mipmap/user_info"
+        android:drawablePadding="13dp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="用户信息"
+        android:textSize="17sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divide_line" />
+    <TextView
+        android:id="@+id/tv_item3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:drawableLeft="@mipmap/about_system"
+        android:drawablePadding="13dp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="关于系统"
+        android:textSize="17sp" />
+
+</LinearLayout>

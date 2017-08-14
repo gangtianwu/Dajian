@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nodata_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:background="@color/detail_title"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/car_detail_mainactivity_iv"
+            android:src="@mipmap/back"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:textColor="@color/mine_info_todo_text_process"
+            android:paddingLeft="10dp"
+            android:gravity="center"
+            android:id="@+id/tv_item"
+            android:textSize="18sp"
+            android:text="关于系统"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        app:cardCornerRadius="0.5dp"
+        app:cardElevation="1dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/about_system_car"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="45dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/about_system_car"/>
+            <TextView
+                android:layout_marginTop="24dp"
+                android:id="@+id/about_system_appname"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/about_system_car"
+                android:textSize="17sp"
+                android:textColor="@color/mine_info_todo_text_process"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="大件运输"
+                />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/about_system_appname"
+                android:textSize="12sp"
+                android:textColor="#808080"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/about_system_version"
+                android:layout_marginTop="12dp"
+                android:text="V"
+                />
+            <View
+                android:layout_marginTop="30dp"
+                android:id="@+id/carrierfg_reg_view5"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/about_system_version"
+                android:background="@color/divide_line" />
+
+            <TextView
+                android:clickable="true"
+                android:id="@+id/carrier_tv_end_time"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/carrierfg_reg_view5"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:text="使用单位"
+                android:textColor="@color/mine_info_todo_text_process"
+                android:textSize="16sp" />
+
+            <TextView
+                android:clickable="true"
+                android:id="@+id/carrier_tv_end_time_value"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/carrierfg_reg_view5"
+                android:gravity="center"
+                android:paddingRight="15dp"
+                android:text="                                                                          "
+                android:textColor="@color/mine_info_radiogroup_unchecked"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
