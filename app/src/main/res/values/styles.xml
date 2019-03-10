@@ -112,4 +112,6 @@
         <item name="android:activityCloseExitAnimation">@anim/pop_exit_anim</item>
     </style>
 
+    <style name="Dialog2" parent="Theme.AppCompat.Dialog"></style>
+
 </resources>

@@ -43,16 +43,25 @@
             android:background="@null"
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@+id/query_iv"
+            android:layout_toLeftOf="@+id/contact_down_show"
             android:layout_centerVertical="true"
             android:textSize="16sp"
             android:textColorHint="#808080"
             android:id="@+id/query_et1"
             android:hint="请输入账号"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:id="@+id/contact_down_show"
+            android:layout_marginRight="14dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/login_up"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </RelativeLayout>
-    <RelativeLayout
 
+    <RelativeLayout
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:id="@+id/query_rl_2"
@@ -80,8 +89,10 @@
             android:textColorHint="#808080"
             android:id="@+id/query_et"
             android:hint="请输入密码"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
     </RelativeLayout>
     <View
         android:layout_marginTop="25dp"
@@ -123,5 +134,22 @@
 
             />
     </LinearLayout>
-
+    <!--<TextView-->
+        <!--android:text="hahahahah啊"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:layout_below="@+id/query_rl"-->
+        <!--android:layout_width="313dp"-->
+        <!--android:layout_height="wrap_content"/>-->
+    <android.support.v7.widget.RecyclerView
+        android:visibility="gone"
+        android:id="@+id/user_list"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/query_rl"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
 </RelativeLayout>

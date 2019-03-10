@@ -1,4 +1,6 @@
 <resources>
+
+    <string name="get_versioncode">获取版本信息失败</string>
     <string name="app_hainan">海南大件</string>
     <string name="app_name">河北大件</string>
     <string name="action_settings">设置</string>

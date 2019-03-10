@@ -13,11 +13,11 @@
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/baseinfofragment_rv"
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/cardview_light_background"
-        android:paddingLeft="15dp">
+        android:paddingLeft="15dp"
+    >
 
     </android.support.v7.widget.RecyclerView>
 

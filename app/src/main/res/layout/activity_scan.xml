@@ -27,7 +27,7 @@
         app:qrcv_isShowTipTextAsSingleLine="false"
         app:qrcv_isTipTextBelowRect="false"
         app:qrcv_maskColor="#66000000"
-        app:qrcv_rectWidth="279dp"
+        app:qrcv_rectWidth="160dp"
         app:qrcv_scanLineColor="@color/colorPrimaryDark"
         app:qrcv_scanLineMargin="0dp"
         app:qrcv_scanLineSize="0.5dp"

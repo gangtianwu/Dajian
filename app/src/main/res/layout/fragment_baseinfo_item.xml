@@ -14,21 +14,23 @@
             android:layout_width="wrap_content"
             android:layout_height="44dp"
             android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
             android:gravity="center"
             android:text="@string/carrier_contact"
             android:textColor="@color/mine_info_todo_text_process"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            />
+        <!--android:maxLines="2"-->
 
         <TextView
             android:id="@+id/fragment_baseinfo_item_tv"
-            android:maxEms="14"
-            android:maxLines="2"
+            android:maxEms="12"
             android:layout_width="wrap_content"
             android:layout_height="44dp"
             android:layout_alignParentRight="true"
-            android:gravity="center"
+            android:gravity="center_vertical"
             android:paddingRight="15dp"
-            android:text="同意"
+            android:text="同意一一一晕晕晕晕晕一一一晕晕晕晕晕晕晕一一一晕晕晕晕晕晕晕一一一晕晕晕晕晕晕晕一一一晕晕晕晕晕晕晕"
             android:textColor="@color/mine_info_radiogroup_unchecked"
             android:textSize="16sp" />
 

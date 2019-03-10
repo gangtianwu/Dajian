@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <View
+            android:id="@+id/photo_item_v1_text"
+            android:layout_width="87dp"
+            android:layout_height="0.5dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="26.5dp"
+            android:layout_toLeftOf="@+id/fragment_baseinfo_photo_item_tv_text"
+            android:background="@color/divide_line" />
+
+        <TextView
+            android:id="@+id/fragment_baseinfo_photo_item_tv_text"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="营业执照"
+            android:textColor="#999999"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/photo_item_v2_text"
+            android:layout_width="87dp"
+            android:layout_height="0.5dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="26.5dp"
+            android:layout_toRightOf="@+id/fragment_baseinfo_photo_item_tv_text"
+            android:background="@color/divide_line" />
+    </RelativeLayout>
+</LinearLayout>
